@@ -6,7 +6,7 @@ require 'contrib/npm.php';
 // Config
 
 set('repository', 'git@github.com:rabol/raboldev.git');
-set('writable_mode', 'chgrp');
+set('writable_mode', 'chmod');
 set('writable_recursive', true);
 set('writable_chmod_mode', '0775');
 
