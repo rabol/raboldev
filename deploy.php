@@ -2,7 +2,7 @@
 namespace Deployer;
 
 require 'recipe/statamic.php';
-
+require 'contrib/npm.php';
 // Config
 
 set('repository', 'git@github.com:rabol/raboldev.git');
