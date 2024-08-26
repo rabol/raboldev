@@ -21,7 +21,7 @@ host('rabol.dev')
     ->set('deploy_path', '/var/www/raboldev');
 
 
-desc('Installs npm packages');
+desc('Build you assets');
 task('npm:build', function () {
     run("cd {{release_path}} && {{bin/npm}} run build");
 });
