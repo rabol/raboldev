@@ -6,17 +6,19 @@ require 'recipe/statamic.php';
 // Config
 
 set('repository', 'git@github.com:rabol/raboldev.git');
-set('writable_mode', 'chown');
+set('writable_mode', 'chmod');
+set('writable_recursive', true);
+set('writable_chmod_mode', '0755');
 
 add('shared_files', []);
 add('shared_dirs', []);
-add('writable_dirs', []);
+add('writable_dirs', ['content','users']);
 
 // Hosts
 
 host('rabol.dev')
     ->set('remote_user', 'deployer')
-    ->set('deploy_path', '~/raboldev');
+    ->set('deploy_path', '/var/www/raboldev');
 
 
 desc('Installs npm packages');
