@@ -18,6 +18,13 @@ host('rabol.dev')
     ->set('remote_user', 'deployer')
     ->set('deploy_path', '~/raboldev');
 
-// Hooks
 
+desc('Installs npm packages');
+task('npm:build', function () {
+    run("cd {{release_path}} && {{bin/npm}} run build");
+});
+
+// Hooks
+before('deploy:publish','npm:install');
+after('npm:install', 'npm:build');
 after('deploy:failed', 'deploy:unlock');
