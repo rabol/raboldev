@@ -12,7 +12,7 @@ set('writable_chmod_mode', '0775');
 set('writable_use_sudo','true');
 add('shared_files', []);
 add('shared_dirs', []);
-add('writable_dirs', ['content','users']);
+add('writable_dirs', ['content','users','public/assets']);
 
 // Hosts
 
