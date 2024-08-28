@@ -6,9 +6,9 @@ require 'contrib/npm.php';
 // Config
 
 set('repository', 'git@github.com:rabol/raboldev.git');
-//set('writable_mode', 'chmod');
-set('writable_recursive', true);
-set('writable_chmod_mode', '0775');
+set('writable_mode', 'chown');
+set('writable_recursive', 'true');
+set('writable_chmod_mode', '0755');
 set('writable_use_sudo','true');
 add('shared_files', []);
 add('shared_dirs', []);

@@ -113,16 +113,16 @@
         },
         {
             "name": "alt-design/alt-cookies",
-            "version": "v1.1.2",
+            "version": "v1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alt-design/Alt-Cookies-Addon.git",
-                "reference": "fca5fa0868e0d80ca766f97fbb589f641be07202"
+                "reference": "88455bfe23156ba8c28eedc96306295355bfd8ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alt-design/Alt-Cookies-Addon/zipball/fca5fa0868e0d80ca766f97fbb589f641be07202",
-                "reference": "fca5fa0868e0d80ca766f97fbb589f641be07202",
+                "url": "https://api.github.com/repos/alt-design/Alt-Cookies-Addon/zipball/88455bfe23156ba8c28eedc96306295355bfd8ee",
+                "reference": "88455bfe23156ba8c28eedc96306295355bfd8ee",
                 "shasum": ""
             },
             "type": "library",
@@ -149,9 +149,9 @@
             "description": "Helps handle scripts and cookies on your Statamic site",
             "support": {
                 "issues": "https://github.com/alt-design/Alt-Cookies-Addon/issues",
-                "source": "https://github.com/alt-design/Alt-Cookies-Addon/tree/v1.1.2"
+                "source": "https://github.com/alt-design/Alt-Cookies-Addon/tree/v1.1.3"
             },
-            "time": "2024-07-04T10:38:51+00:00"
+            "time": "2024-08-27T12:50:03+00:00"
         },
         {
             "name": "alt-design/alt-inbound",
@@ -8928,16 +8928,16 @@
         },
         {
             "name": "phpunit/php-file-iterator",
-            "version": "5.0.1",
+            "version": "5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "6ed896bf50bbbfe4d504a33ed5886278c78e4a26"
+                "reference": "118cfaaa8bc5aef3287bf315b6060b1174754af6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/6ed896bf50bbbfe4d504a33ed5886278c78e4a26",
-                "reference": "6ed896bf50bbbfe4d504a33ed5886278c78e4a26",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/118cfaaa8bc5aef3287bf315b6060b1174754af6",
+                "reference": "118cfaaa8bc5aef3287bf315b6060b1174754af6",
                 "shasum": ""
             },
             "require": {
@@ -8977,7 +8977,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
                 "security": "https://github.com/sebastianbergmann/php-file-iterator/security/policy",
-                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/5.0.1"
+                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/5.1.0"
             },
             "funding": [
                 {
@@ -8985,7 +8985,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-03T05:06:37+00:00"
+            "time": "2024-08-27T05:02:59+00:00"
         },
         {
             "name": "phpunit/php-invoker",
