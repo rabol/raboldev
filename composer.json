@@ -65,6 +65,10 @@
         ],
         "deploy-prod": [
             "Composer\\Config::disableProcessTimeout",
+            "./vendor/bin/dep deploy"
+        ],
+        "deploy-prod-denug": [
+            "Composer\\Config::disableProcessTimeout",
             "./vendor/bin/dep deploy --log=storage/logs/deploy.log -v"
         ]
     },

@@ -59,13 +59,13 @@ task('upload_env', function() {
     upload(__DIR__ . "/.env.staging", '{{deploy_path}}/shared/.env');
 })->desc('Copy environment file');
 
-task('npm:build', function() {
-    run('cd {{release_or_current_path}} && npm ci && npm run production');
-})->desc('npm run production');
+//task('npm:build', function() {
+//    run('cd {{release_or_current_path}} && npm ci && npm run production');
+//})->desc('npm run production');
 
 
 // Hooks
 before('deploy:publish','npm:install');
 after('npm:install', 'npm:build');
 after('deploy:failed', 'deploy:unlock');
-after('deploy:publish', 'statamic:permission');
+//after('deploy:publish', 'statamic:permission');
