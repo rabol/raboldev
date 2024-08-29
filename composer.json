@@ -62,6 +62,10 @@
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ],
+        "deploy-prod": [
+            "Composer\\Config::disableProcessTimeout",
+            "./vendor/bin/dep deploy --log=storage/logs/deploy.log -v"
         ]
     },
     "extra": {
