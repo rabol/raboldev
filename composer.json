@@ -10,7 +10,6 @@
     ],
     "require": {
         "php": "^8.2",
-        "alt-design/alt-akismet": "^1.1",
         "alt-design/alt-cookies": "^1.1",
         "alt-design/alt-inbound": "^1.1",
         "alt-design/alt-password-protect": "^1.2",

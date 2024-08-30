@@ -215,3 +215,27 @@ fields:
                     max_items: 1
                     type: form
                     display: Form
+            featured_post:
+              display: 'Featured Post'
+              icon: layout-split-verical
+              fields:
+                -
+                  import: featured_post
+            featured_posts:
+              display: 'Featured Posts'
+              icon: dashboard-layout
+              fields:
+                -
+                  import: featured_posts
+            all_posts:
+              display: 'All Posts'
+              icon: layout-grid-dots
+              fields:
+                -
+                  import: all_posts
+            contact_section:
+              display: 'Contact Section'
+              icon: mail-sign-at
+              fields:
+                -
+                  import: contact_section

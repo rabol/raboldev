@@ -1,0 +1,25 @@
+title: 'Rich Text'
+fields:
+  -
+    handle: rich_text
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+        - h4
+        - h5
+        - h6
+        - underline
+        - strikethrough
+      remove_empty_nodes: false
+      type: bard
+      display: 'Rich Text'

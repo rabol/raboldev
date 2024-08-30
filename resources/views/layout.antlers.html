@@ -4,13 +4,24 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ settings:site_name }} {{ title ?= '- {title}'}}</title>
+        {{ partial:partials/seo }}
         {{ alt_seo:meta }}
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
     </head>
+    {{#
     <body class="alt_starter_kit page-{{ slug }} relative" x-data="{navOpen: false, modalOpen: false}">
         {{ partial src="parts/header"}}
         {{ template_content }}
         {{ partial src="parts/footer"}}
         {{ AltCookies:Toast }}
+    </body>
+    #}}
+    <body class="flex flex-col min-h-screen font-inter">
+    {{ partial:layout/navigation }}
+
+    {{ template_content }}
+
+    {{ partial:layout/footer }}
     </body>
 </html>

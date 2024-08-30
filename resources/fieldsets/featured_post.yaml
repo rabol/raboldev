@@ -1,0 +1,15 @@
+title: 'Featured Post'
+fields:
+  -
+    handle: featured_post
+    field:
+      max_items: 1
+      collections:
+        - posts
+      type: entries
+      display: 'Featured Post'
+  -
+    handle: background_color
+    field:
+      type: color
+      display: 'Background Color'

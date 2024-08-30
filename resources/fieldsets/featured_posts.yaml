@@ -1,0 +1,10 @@
+title: 'Featured Posts'
+fields:
+  -
+    handle: featured_posts
+    field:
+      max_items: 2
+      collections:
+        - posts
+      type: entries
+      display: 'Featured Posts'

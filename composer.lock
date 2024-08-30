@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d9840546b9ee59abdb01b78d440c1a6",
+    "content-hash": "273c6acded0e2fd77e30acab6bd0db7e",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -68,48 +68,6 @@
                 "source": "https://github.com/ajthinking/archetype/tree/v2.0.0"
             },
             "time": "2024-05-11T08:05:58+00:00"
-        },
-        {
-            "name": "alt-design/alt-akismet",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/alt-design/Alt-Akismet-Addon.git",
-                "reference": "9520a3595a7c703acc638e04a684d9782d51de89"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/alt-design/Alt-Akismet-Addon/zipball/9520a3595a7c703acc638e04a684d9782d51de89",
-                "reference": "9520a3595a7c703acc638e04a684d9782d51de89",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Alt Akismet",
-                    "description": "Alt Akismet addon"
-                },
-                "laravel": {
-                    "providers": [
-                        "AltDesign\\AltAkismet\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "AltDesign\\AltAkismet\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Alt Akismet addon, integrates Akismet into your Statamic site.",
-            "support": {
-                "issues": "https://github.com/alt-design/Alt-Akismet-Addon/issues",
-                "source": "https://github.com/alt-design/Alt-Akismet-Addon/tree/v1.1.0"
-            },
-            "time": "2024-01-03T11:36:27+00:00"
         },
         {
             "name": "alt-design/alt-cookies",
@@ -7860,16 +7818,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.12.5",
+            "version": "v15.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "7bcd31d1dcf67781ed5cb493b22c519c539c05e6"
+                "reference": "b3b8c5bba097b0db95098fadb63e8980e184a03b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/7bcd31d1dcf67781ed5cb493b22c519c539c05e6",
-                "reference": "7bcd31d1dcf67781ed5cb493b22c519c539c05e6",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/b3b8c5bba097b0db95098fadb63e8980e184a03b",
+                "reference": "b3b8c5bba097b0db95098fadb63e8980e184a03b",
                 "shasum": ""
             },
             "require": {
@@ -7882,12 +7840,12 @@
                 "amphp/http-server": "^2.1",
                 "dms/phpunit-arraysubset-asserts": "dev-master",
                 "ergebnis/composer-normalize": "^2.28",
-                "friendsofphp/php-cs-fixer": "3.59.3",
+                "friendsofphp/php-cs-fixer": "3.63.2",
                 "mll-lab/php-cs-fixer-config": "^5",
                 "nyholm/psr7": "^1.5",
                 "phpbench/phpbench": "^1.2",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "1.11.5",
+                "phpstan/phpstan": "1.12.0",
                 "phpstan/phpstan-phpunit": "1.4.0",
                 "phpstan/phpstan-strict-rules": "1.6.0",
                 "phpunit/phpunit": "^9.5 || ^10.5.21",
@@ -7922,7 +7880,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.12.5"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.13.0"
             },
             "funding": [
                 {
@@ -7930,7 +7888,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-06-23T11:30:58+00:00"
+            "time": "2024-08-29T10:55:21+00:00"
         },
         {
             "name": "wilderborn/partyline",

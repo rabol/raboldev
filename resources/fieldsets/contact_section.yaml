@@ -1,0 +1,50 @@
+title: 'Contact Section'
+fields:
+  -
+    import: rich_text
+  -
+    handle: contact_info
+    field:
+      type: replicator
+      display: 'Contact Info'
+      sets:
+        main:
+          display: Main
+          sets:
+            contact:
+              display: Contact
+              fields:
+                -
+                  handle: select_type
+                  field:
+                    options:
+                      -
+                        key: Location
+                        value: Location
+                      -
+                        key: email
+                        value: Email
+                      -
+                        key: phine
+                        value: Phone
+                      -
+                        key: text
+                        value: Test
+                    max_items: 1
+                    default: email
+                    type: select
+                    display: 'Select Type'
+                    width: 33
+                -
+                  handle: icon
+                  field:
+                    directory: public/assets/icons
+                    type: icon
+                    display: Icon
+                    width: 33
+                -
+                  handle: text
+                  field:
+                    type: text
+                    display: Text
+                    width: 33
