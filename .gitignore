@@ -3,9 +3,7 @@
 /public/build
 /public/hot
 /public/storage
-/public/assets
 /public/vendor/statamic
-/public/cached-img
 /storage/*.key
 /vendor
 .env
