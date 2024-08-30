@@ -11,10 +11,8 @@ set('writable_recursive', 'true');
 set('writable_chmod_mode', '0755');
 set('writable_use_sudo','true');
 //add('shared_files', []);
-//add('shared_dirs', ['public/assets','public/cached-img']);
+add('shared_dirs', ['public/assets','public/cached-img']);
 //add('writable_dirs', ['content','users','bootstrap/cache']);
-
-//add('shared_files', ['.env']);
 
 add('shared_dirs', [
     'content',
