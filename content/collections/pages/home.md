@@ -18,7 +18,6 @@ page_builder:
 alt_seo_noindex: false
 alt_seo_nofollow: false
 exclude_from_sitemap: false
-protect: none
 updated_by: 314332da-523b-4b0c-bb57-32c64be41f4f
 updated_at: 1725026386
 ---
