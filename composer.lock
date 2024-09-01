@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a34a125a59801b3f496b94e53682f1d9",
+    "content-hash": "5358e4fc0cb8092c2a9160147f69ccb8",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -110,98 +110,6 @@
                 "source": "https://github.com/alt-design/Alt-Cookies-Addon/tree/v1.1.3"
             },
             "time": "2024-08-27T12:50:03+00:00"
-        },
-        {
-            "name": "alt-design/alt-redirect",
-            "version": "v1.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/alt-design/Alt-Redirect-Addon.git",
-                "reference": "e46c28db38d6a44afaf95acd312edd209826d868"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/alt-design/Alt-Redirect-Addon/zipball/e46c28db38d6a44afaf95acd312edd209826d868",
-                "reference": "e46c28db38d6a44afaf95acd312edd209826d868",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.1",
-                "statamic/cms": "^4.0|^5.0"
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Alt Redirect",
-                    "description": "Alt Redirect addon"
-                },
-                "laravel": {
-                    "providers": [
-                        "AltDesign\\AltRedirect\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "AltDesign\\AltRedirect\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Alt Redirect addon, add Redirects to your site",
-            "support": {
-                "issues": "https://github.com/alt-design/Alt-Redirect-Addon/issues",
-                "source": "https://github.com/alt-design/Alt-Redirect-Addon/tree/v1.3.2"
-            },
-            "time": "2024-06-07T12:24:08+00:00"
-        },
-        {
-            "name": "alt-design/alt-seo",
-            "version": "v1.1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/alt-design/Alt-SEO-Addon.git",
-                "reference": "6910436acba7239dbd8cf3b2e19b97497bdf46fd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/alt-design/Alt-SEO-Addon/zipball/6910436acba7239dbd8cf3b2e19b97497bdf46fd",
-                "reference": "6910436acba7239dbd8cf3b2e19b97497bdf46fd",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.1",
-                "statamic/cms": "^4.0|^5.0"
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Alt Seo",
-                    "description": "Alt Seo addon"
-                },
-                "laravel": {
-                    "providers": [
-                        "AltDesign\\AltSeo\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "AltDesign\\AltSeo\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Alt SEO addon, add SEO tags to your site",
-            "support": {
-                "issues": "https://github.com/alt-design/Alt-SEO-Addon/issues",
-                "source": "https://github.com/alt-design/Alt-SEO-Addon/tree/v1.1.9"
-            },
-            "time": "2024-08-16T14:17:02+00:00"
         },
         {
             "name": "brick/math",
