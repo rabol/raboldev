@@ -8,7 +8,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | The license key for the corresponding domain from your Statamic account.
-    | Without a key entered, your app will considered to be in Trial Mode.
+    | Without a key entered, your app will be considered to be in Trial Mode.
     |
     | https://statamic.dev/licensing#trial-mode
     |
@@ -72,7 +72,7 @@ return [
     |
     */
 
-    'date_format' => 'F jS, Y',
+    'date_format' => env('STATAMIC_SYSTEM_DATE_FORMAT','F jS, Y'),
 
     /*
     |--------------------------------------------------------------------------
@@ -162,7 +162,7 @@ return [
     |
     | With this enabled, Statamic will attempt to update references to assets
     | and terms when moving, renaming, replacing, deleting, etc. This will
-    | be queued, but it can disabled as needed for performance reasons.
+    | be queued, but it can be disabled as needed for performance reasons.
     |
     */
 
