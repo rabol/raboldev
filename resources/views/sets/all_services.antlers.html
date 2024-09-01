@@ -1,0 +1,14 @@
+<div class="container py-8 md:py-12">
+    {{ collection:services paginate="9" as="services" }}
+        {{ if no_results }}
+            <p>Aww, there are no results.</p>
+        {{ /if }}
+        <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+            {{ services }}
+                {{ partial:components/service_card }}
+            {{ /services }}
+        </div>
+
+        {{ partial:partials/pagination }}
+    {{ /collection:services }}
+</div>

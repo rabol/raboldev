@@ -239,3 +239,8 @@ fields:
               fields:
                 -
                   import: contact_section
+            all_services:
+              display: 'All services'
+              fields:
+                -
+                  import: all_services

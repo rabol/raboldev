@@ -1,0 +1,14 @@
+{{ collection:services as="services" sort="random" limit="3" :id:not="id" }}
+    {{ if posts }}
+        <div class="bg-gray-50">
+            <div class="container py-8 md:py-12">
+                {{ partial:components/heading size="h3" label="Similiar Services" class="mb-8 md:mb-12" }}
+                <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+                    {{ services }}
+                        {{ partial:components/service_card }}
+                    {{ /services }}
+                </div>
+            </div>
+        </div>
+    {{ /if }}
+{{ /collection:services }}
