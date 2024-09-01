@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "273c6acded0e2fd77e30acab6bd0db7e",
+    "content-hash": "5cb77a92747e906fb3b5868188de6a6a",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -110,94 +110,6 @@
                 "source": "https://github.com/alt-design/Alt-Cookies-Addon/tree/v1.1.3"
             },
             "time": "2024-08-27T12:50:03+00:00"
-        },
-        {
-            "name": "alt-design/alt-inbound",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/alt-design/Alt-Inbound-Addon.git",
-                "reference": "efa654f42e2a2f0181a8e2a2aea84d520e44d890"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/alt-design/Alt-Inbound-Addon/zipball/efa654f42e2a2f0181a8e2a2aea84d520e44d890",
-                "reference": "efa654f42e2a2f0181a8e2a2aea84d520e44d890",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.1",
-                "statamic/cms": "^4.0|^5.0"
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Alt Inbound",
-                    "description": "Alt Inbound addon"
-                },
-                "laravel": {
-                    "providers": [
-                        "AltDesign\\AltInbound\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "AltDesign\\AltInbound\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Alt Inbound addon, adds IP blocking to your site",
-            "support": {
-                "issues": "https://github.com/alt-design/Alt-Inbound-Addon/issues",
-                "source": "https://github.com/alt-design/Alt-Inbound-Addon/tree/v1.1.0"
-            },
-            "time": "2024-05-15T08:04:52+00:00"
-        },
-        {
-            "name": "alt-design/alt-password-protect",
-            "version": "v1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/alt-design/Alt-Password-Protect-Addon.git",
-                "reference": "66e6f0687cb73bf7a5ecf6a494e8e87e2288fa77"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/alt-design/Alt-Password-Protect-Addon/zipball/66e6f0687cb73bf7a5ecf6a494e8e87e2288fa77",
-                "reference": "66e6f0687cb73bf7a5ecf6a494e8e87e2288fa77",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Alt Password Protect",
-                    "description": "Alt Password Protect addon"
-                },
-                "laravel": {
-                    "providers": [
-                        "AltDesign\\AltPasswordProtect\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "AltDesign\\AltPasswordProtect\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Alt Password Protect - hide your pages behind a password",
-            "support": {
-                "issues": "https://github.com/alt-design/Alt-Password-Protect-Addon/issues",
-                "source": "https://github.com/alt-design/Alt-Password-Protect-Addon/tree/v1.2.0"
-            },
-            "time": "2024-05-13T14:42:03+00:00"
         },
         {
             "name": "alt-design/alt-redirect",
