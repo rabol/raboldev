@@ -56,30 +56,6 @@ tabs:
                 - categories
               display: Categories
               mode: select
-  alt_password_protect:
-    display: 'Alt Password Protect'
-    sections:
-      -
-        fields:
-          -
-            handle: protect
-            field:
-              options:
-                none: None
-                alt_password_protect_default: 'Default Password'
-                alt_password_protect_custom: 'Custom Password'
-              max_items: 1
-              default: none
-              type: select
-              display: 'Password Protect'
-              instructions: 'Default password set in site settings'
-          -
-            handle: alt_protect_custom_password
-            field:
-              type: text
-              display: 'Custom Password'
-              if:
-                protect: 'equals alt_password_protect_custom'
   alt_seo:
     display: 'Alt SEO'
     sections:
