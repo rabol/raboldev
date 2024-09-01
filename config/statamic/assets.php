@@ -68,7 +68,8 @@ return [
         */
 
         'cache' => true,
-        'cache_path' => public_path('cached-img'),
+        //'cache_path' => public_path('cached-img'),
+        'cache_path' => storage_path('app/public/cached-img'),
 
         /*
         |--------------------------------------------------------------------------
